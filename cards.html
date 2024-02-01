@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Async Exercises: Cards</title>
+    <link rel="stylesheet" href="cards.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Let's Draw Some Cards</h1>
+      <h3 id="deck_info"></h3>
+      <div id="back_of_deck">
+        <img src="https://deckofcardsapi.com/static/img/back.png" alt="" />
+      </div>
+
+      <div id="buttons">
+        <button id="draw_card_button">Draw a Card</button
+        ><button id="shuffle_deck_button" hidden>Shuffle the Deck</button>
+      </div>
+
+      <p id="draw_info"></p>
+
+      <div id="drawn_card_images"></div>
+    </main>
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="cards.js"></script>
+  </body>
+</html>

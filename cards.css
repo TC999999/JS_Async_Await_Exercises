@@ -1,0 +1,40 @@
+main {
+  margin-left: 10px;
+}
+
+#back_of_deck {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#buttons {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card {
+  margin: 5px;
+}
+
+body {
+  background-color: green;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+#drawn_card_images {
+  text-align: center;
+}

@@ -1,0 +1,50 @@
+body {
+  background-color: red;
+}
+
+h1 {
+  color: gold;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#unknown-image {
+  width: 60px;
+  height: 60px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border: solid;
+  border-radius: 10px;
+  border-color: black;
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 10px;
+}
+
+#button-div {
+  text-align: center;
+}
+
+#loading_msg {
+  color: gold;
+}
+
+#poke_facts_div {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+}
+
+.poke-div {
+  background-color: lightblue;
+  padding: 3px;
+  margin: 5px;
+  border: solid;
+  border-color: black;
+  width: 300px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Async Exercises: Numbers</title>
+  </head>
+  <body>
+    <h1>Number Facts</h1>
+    <h3>Let me tell you something about my favorite number</h3>
+    <ul id="my_fav_list"></ul>
+
+    <h3>Let me tell you some things about three random numbers</h3>
+    <ul id="three_random_list"></ul>
+
+    <h3>Let me tell you some things about your favorite number</h3>
+    <label for="user_favorite_input"></label>
+    <input
+      id="user_favorite_input"
+      name="user_favorite_input"
+      type="number"
+      min="0"
+    />
+    <button id="submit_user_favorite">Let's see some facts</button>
+    <ul id="user_fav_list"></ul>
+
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="nums.js"></script>
+  </body>
+</html>
